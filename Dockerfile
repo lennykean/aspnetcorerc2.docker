@@ -13,4 +13,3 @@ RUN apt-get update && apt-get -y install unzip curl libunwind8 gettext libssl-de
     && apt-get -y clean \
     && rm -rf /var/lib/apt/lists/*
     
-CMD ["echo", "Hello World"]
